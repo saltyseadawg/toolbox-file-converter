@@ -1,0 +1,339 @@
+\_sh v3.0  400  MDF 4.0
+\_DateStampHasFourDigitYear
+
+\lx abrd
+\ps prep
+\ge on
+\de on top of; on board (a train or ship)
+\dt 13/Apr/2006
+
+\lx aidano
+\ps part
+\ge maybe
+\de a semi-polite refusal to answer a question
+\dt 13/Apr/2006
+
+\lx byon the pail
+\ps adj
+\ge far.out
+\dt 30/Apr/2006
+
+\lx clam
+\ps v
+\ge ascend
+\pdl past
+\pdv clum
+\dt 13/Apr/2006
+
+\lx clum
+\ps n
+\ge shellfish
+\ps v
+\de past tense of 'clam'
+
+\lx -d
+\ps vsf
+\ge Pst
+\dt 13/Apr/2006
+
+\lx dat
+\ps dem
+\ge that
+\dt 13/Apr/2006
+
+\lx de
+\ps art
+\ge the
+\dt 13/Apr/2006
+
+\lx dem
+\ps dem
+\ge those
+\dt 13/Apr/2006
+
+\lx der
+\ps art
+\ge the
+\nt What is the difference between 'de' and 'der'?
+
+\lx dey
+\ps pron
+\ge they
+\dt 13/Apr/2006
+
+\lx du nuttin
+\ps v
+\ge be.interruptable
+\de to engage in interruptable activity
+\se wacha duin
+\de a greeting
+\na (proper response: nuttin)
+\se nuttin duin
+\de to refuse
+\cf nuttin
+\dt 30/Apr/2006
+
+\lx e
+\ps pron
+\ge he
+\dt 13/Apr/2006
+
+\lx et
+\ps v
+\ge ate
+\de past tense of it
+\dt 13/Apr/2006
+
+\lx far out
+\ps adj
+\ge wild
+\dt 13/Apr/2006
+
+\lx fishy
+\ps n
+\ge small fish
+\ps adj
+\ge suspicious
+\dt 13/Apr/2006
+
+\lx flauwy
+\ps n
+\ge flower
+\dt 13/Apr/2006
+
+\lx fm
+\ps prep
+\ge from
+
+\lx fokz
+\ps n
+\ge parents
+
+\lx git
+\ps v
+\ge get
+\se git tu
+\ps v
+\ge bother
+\dt 22/Apr/2006
+
+\lx grain
+\ps v
+\ge smile
+\xv E wuz grainin fm lug t lug.
+\xe He was smiling broadly.
+\dt 13/Apr/2006
+
+\lx heal
+\ps n
+\ge mountain
+\xv E clum de heal.
+\xe He climbed the mountain.
+\dt 13/Apr/2006
+
+\lx horsnroun
+\ps v
+\ge play
+\pdl past
+\pdv horsdroun
+
+\lx -in
+\ps vsf
+\ge Pres
+
+\lx it
+\ps v
+\ge eat
+
+\lx jus
+\ps adv
+\ge only
+
+\lx katndog
+\ps v
+\ge run
+
+\lx katnmows
+\ps v
+\ge tease
+\de deliberately provoke
+\xv Dem tweetrz r katnmowsin de meeyowlr.
+\xe The birds are teasing the cat.
+\dt 13/Apr/2006
+
+\lx katrwal
+\ps v
+\ge sing
+\de to sing
+\xv Dey uz katrwallin tudeweerz.
+\xe They were singing half the night.
+\dt 13/Apr/2006
+
+\lx katrwallin
+\ps n
+\ge song
+\de song; singing
+\xv Dat katrwallin z gitin tummi.
+\xe That song is driving me crazy.
+\dt 22/Apr/2006
+
+\lx las
+\ps adv
+\ge previous
+
+\lx lug
+\ps n
+\ge ear
+
+\lx meetntatrz
+\ps n
+\ge food
+
+\lx meeyowl
+\ps n
+\ge sound.of.cat
+\dt 30/Apr/2006
+
+\lx meeyowlr
+\ps n
+\ge cat
+
+\lx mumu
+\ps n
+\ge sound.of.cow
+\ge dress
+\de a loose flowing dress with a wild print
+\dt 30/Apr/2006
+
+\lx mumur
+\ps n
+\ge cow
+
+\lx nuttin
+\ps n
+\ge nothing
+
+\lx pigaut
+\ps v
+\ge eat.heavily
+\xv Dey pigdaut n der meetntatrz.
+\xe They ate the food eagerly.
+\pdl past
+\pdv pigdaut
+\dt 30/Apr/2006
+
+\lx piggy
+\ps n
+\ge toe
+
+\lx pikkat
+\ps v
+\ge eat
+\de eat, especially to eat very little or with little interest
+\xv Dey pikkdat de meetntatrz.
+\xe They barely touched the food.
+\an wuf(1)
+\pdl pres.
+\pdv pikkinat
+\pdl past
+\pdv pikkdat
+\dt 22/Apr/2006
+
+\lx pinky
+\ps n
+\ge finger
+
+\lx shrubbry
+\ps n
+\ge tree
+
+\lx stinknrat
+\ps n
+\ge mouse
+
+\lx t
+\ps prep
+\ge to
+\nt no vowel?
+
+\lx tudeweerz
+\ps adv
+\ge until.very.late
+\dt 30/Apr/2006
+
+\lx tweetr
+\ps n
+\ge bird
+
+\lx wuf
+\ps v
+\sn 1
+\ge eat, especially to eat rapidly
+\xv Dey wufd de meetntatrz.
+\xe They quickly ate up the food.
+\sy gobl
+\cf pikkat
+\cf wufr
+\cf it
+\sn 2
+\ge tease
+\de to tease, kid, or joke with
+\xv Kwitchr wufin dat meyowler.
+\xe Stop teasing the cat.
+\xv Aiz jus awufin ya.
+\xe I'm only kidding.
+\nt Find out about prefix "a-" here.
+\ps n
+\sn 1
+\ge joke
+\ge fun
+\xv Dat wur awuf.
+\xe That was fun.
+\nt Check this.
+\sn 2
+\ge sound.of.dog
+\sn 3
+\de large wild dog (?)
+\xv De wuf et tree oinkrz.
+\xe The dog (?) ate three pigs.
+\nt Bilinguals disagreed with me calling it a dog, but it looked like one.
+Need to find out more about it.
+\na Said to have a powerful lung capability. Legend has it able to blow
+down a house.
+\dt 30/Apr/2006
+
+\lx wufr
+\ps n
+\ge dog
+\nt try to get the difference between a 'wufr' and a 'wuf'!
+\dt 22/Apr/2006
+
+\lx wussup
+\ps part
+\ge greeting
+\nt How is this used differently than 'wacha duin'?
+
+\lx ya
+\ps pron
+\ge you
+
+\lx yukibug
+\ps n
+\ge insect
+\xv Derz a yukibug indr flauwy.
+\xe There is an insect on that plant.
+
+\lx z
+\ps v
+\ge be
+\pdl 1s
+\pdv aiz
+\pdl past
+\pdv uz
+
+\lx -z
+\ps nsf
+\ge Pl
+\ps vsf
+\de attached form of z
+\dt 24/Apr/2006
