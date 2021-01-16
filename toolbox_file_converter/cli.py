@@ -14,9 +14,6 @@ def convert(filename, output, tag, lang):
     Converts in_file into an xml out_file for Readalongs Studio.
     Exclude_tags are converted into xml objects that won't be aligned.
     """
-
-    # attr_qname = ET.QName(lang, "lang")
-    # namespace_prefix = "{%s}" % lang
     NSMAP = {"lang": lang}
 
     div_attr = {"type": "page"}
@@ -34,11 +31,18 @@ def convert(filename, output, tag, lang):
         page = ET.SubElement(body, "div", div_attr)
         p_element = ET.SubElement(page, "p")
         for line in lines:
-            if toolbox_utils.get_toolbox_tag(line) == tag:
+            if not line.strip():
+                continue
+            line_tag = toolbox_utils.get_toolbox_tag(line)
+            if line_tag == tag:
                 page = ET.SubElement(body, "div", div_attr)
                 p_element = ET.SubElement(page, "p")
-                ET.SubElement(p_element, "s").text = line
+                ET.SubElement(p_element, "s").text = toolbox_utils.remove_tag(
+                    line, line_tag
+                )
             else:
-                ET.SubElement(p_element, "s", no_align_attr).text = line
+                ET.SubElement(
+                    p_element, "s", no_align_attr
+                ).text = toolbox_utils.remove_tag(line, line_tag)
 
     tree.write(output, xml_declaration=True, encoding="UTF-8", pretty_print=True)
