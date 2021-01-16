@@ -1,6 +1,4 @@
 import re
-import xml.etree.ElementTree as ET
-
 
 
 def get_toolbox_tag(toolbox_line: str) -> str:
