@@ -9,7 +9,7 @@ from toolbox_file_converter import toolbox_utils
 # @click.option("-o", "--output", required=True)
 # @click.option("-t", "--tag", required=True)
 # @click.option("-l", "--lang", required=True)
-def convert(filename, output, tag, lang):
+def convert(filename, output, tag, lang, ignore=[]):
     """
     Converts in_file into an xml out_file for Readalongs Studio.
     Exclude_tags are converted into xml objects that won't be aligned.
@@ -34,7 +34,9 @@ def convert(filename, output, tag, lang):
             if not line.strip():
                 continue
             line_tag = toolbox_utils.get_toolbox_tag(line)
-            if line_tag == tag:
+            if line_tag in ignore:
+                continue
+            elif line_tag == tag:
                 page = ET.SubElement(body, "div", div_attr)
                 p_element = ET.SubElement(page, "p")
                 ET.SubElement(p_element, "s").text = toolbox_utils.remove_tag(
@@ -46,3 +48,16 @@ def convert(filename, output, tag, lang):
                 ).text = toolbox_utils.remove_tag(line, line_tag)
 
     tree.write(output, xml_declaration=True, encoding="UTF-8", pretty_print=True)
+
+def extract_tag_text(filename, output, tag):
+    write_text = ''
+    with open(filename) as fp:
+        lines = fp.readlines()
+        for line in lines:
+            line_tag = toolbox_utils.get_toolbox_tag(line)
+            if line_tag == tag:
+                new_line = toolbox_utils.remove_tag(line, line_tag)
+                write_text = f'{write_text}{new_line.strip()}\n'
+    
+    with open(output, 'w') as fp:
+        fp.write(write_text)
